@@ -1,37 +1,35 @@
-# 🧮 Basit Python Hesap Makinesi
+# Basit Python Hesap Makinesi
 
-Komut satırında çalışan, Türkçe arayüzlü basit bir hesap makinesi uygulaması.
+Terminalde çalışan, Türkçe bir hesap makinesi. Ders çalışırken yazdım, dört işlem yapıyor.
 
-## 🚀 Kullanım
+## Kullanım
 
 ```bash
 python hesap_makinesi.py
 ```
 
-## ⚙️ Özellikler
+## Ne yapıyor?
 
-- ➕ Toplama
-- ➖ Çıkarma
-- ✖️ Çarpma
-- ➗ Bölme (sıfıra bölme hatası yönetimi dahil)
-- 🔁 Birden fazla işlem yapabilme
-- ❌ Geçersiz girişlerde hata yönetimi
+- Toplama, çıkarma, çarpma, bölme işlemleri
+- Sıfıra bölme durumunu yakalar
+- Yanlış sayı girilince tekrar sorar
+- İstediğin kadar işlem yapabilirsin, çıkmak için `n` yazman yeterli
 
-## 📋 Örnek Kullanım
+## Örnek
 
 ```
-işlem yapacak mısınız(y/n): y
+işlem yapacak mısınız(y/n)y
 işlem yapılacak ilk ifadeyi giriniz= 10
 işlem yapılacak ikinci ifadeyi giriniz= 5
 işlem türü giriniz= +
 15.0
-işlem yapacak mısınız(y/n): n
+işlem yapacak mısınız(y/n)n
 ```
 
-## 🛠️ Gereksinimler
+## Gereksinimler
 
-- Python 3.x
+Python 3 yeterli, başka bir şey gerekmiyor.
 
-## 📄 Lisans
+## Lisans
 
-Bu proje MIT lisansı ile lisanslanmıştır.
+MIT — detaylar için [LICENSE](LICENSE) dosyasına bakabilirsin.
